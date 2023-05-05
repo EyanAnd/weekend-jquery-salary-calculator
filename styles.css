@@ -1,0 +1,14 @@
+body {
+    background-color: cadetblue;
+    color: azure;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+table, tr, td {
+    border: 1px solid azure
+    
+}
