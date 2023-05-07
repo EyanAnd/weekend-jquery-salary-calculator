@@ -1,6 +1,8 @@
 # Weekend Challenge: jQuery Salary Calculator
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+--- Keep track of your employees and make sure you are staying within your budget! 
+
+--- Give it a try!
 
 ## Description
 
@@ -23,6 +25,4 @@ Your project description goes here. What problem did you solve? How did you solv
 --- Note if a field is missed by the manager or employee when submitting their data to the table, they will be met with an alert from the console. Try it to see what it says!
 
 
-
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
   
