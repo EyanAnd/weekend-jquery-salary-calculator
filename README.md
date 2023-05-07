@@ -18,7 +18,9 @@ Your project description goes here. What problem did you solve? How did you solv
 
 --- Note that if the monthly costs exceed $20,000. The number will turn red. signaling that the total cost is over the max budget of $20,000
 
---- If an employee leaves the company they can be deleted from the row.
+--- If an employee leaves the company they can be deleted from the row. A updated monthly cost will be shown subtracting the workers salary who is no longer at the company.
+
+--- Note if a field is missed by the manager or employee when submitting their data to the table, they will be met with an alert from the console. Try it to see what it says!
 
 
 

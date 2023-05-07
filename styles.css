@@ -7,6 +7,10 @@ body {
 
 #submit-button {
     cursor: pointer;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 #submit-button:hover {
@@ -22,12 +26,19 @@ h1 {
 table, th, tr, td {
     border: 1px solid azure;
     padding: 5px;
-    
+    max-width: fit-content;
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    table-layout: fixed;
     
 }
 
 .delete-button {
     cursor: pointer;
+    margin: auto;
+    
 }
 
 .delete-button:hover {
@@ -35,3 +46,25 @@ table, th, tr, td {
     transition: 0.3s;
 }
 
+@keyframes colors {
+    0%   {background-color: cadetblue}
+    25%  {background-color: tan;}
+    50%  {background-color: olivedrab;}
+    100% {background-color: coral;}
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    } to {
+        transform:rotate(360deg);
+    }
+}
+
+h3 {
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
